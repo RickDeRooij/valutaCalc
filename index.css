@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    overflow:hidden;
+}
+h1{
+    color: whitesmoke;
+    font-size: 34px;
+}
+.header{
+    padding-top: 25px;
+    background-color:#617076;
+    height: 60px;
+    text-align: center;
+    border-bottom: solid 6px darkslategrey;
+}
+.landen{;
+    background-color: #47585D;
+    height: 100px;
+    border-bottom: solid 6px darkslategrey;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+.image{
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+}
+.japan{
+    background-image: url("../img/japan.png");
+    height: 60px;
+    width: 60px;
+    border: 2px solid white;
+}
+.landnaam {
+    color: lightgrey;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+}
+.value {
+    color: whitesmoke;
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+.naam {
+    color: lightgrey;
+    font-size: 14px;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+.invoerveld {
+    background-color: #47585D;
+    height: 200px;
+    border-bottom: solid 6px darkslategrey;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    padding-top: 25px;
+    background-color: #47585D;
+    height:70px;
+    color: whitesmoke;
+}
+.europa {
+    color: lightgrey;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+}
+.euro{
+    color: lightgrey;
+    font-size: 14px;
+    position: relative;
+    bottom: 60px;
+    left: 180px;
+}
+#input {
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 0px solid;
+    color: whitesmoke;
+    border-bottom: solid 2px darkslategrey;
+    font-size: 20px;
+    position: relative;
+    bottom: 65px;
+    left: 180px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color:darkslategrey;;
+    color: lightgrey;
+    border: 0px solid;
+    position: relative;
+    bottom: 40px;
+    left: 175px;
+}
+button:hover{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color:#617076;
+    color: lightgrey;
+    border: 0px solid;
+    position: relative;
+    bottom: 40px;
+    left: 175px;
+}
